@@ -1,0 +1,80 @@
+body{
+	/* background-color: red;*/
+	margin 0
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: #d14635;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2 {
+	font-family: 'Press Start 2P', cursive; 
+	/*from google-fonts*/
+}
+
+header h1{
+	color:  royalblue;
+	
+}
+
+header img{
+	background-color:  royalblue;
+	border-radius: 200px;
+	width: 350px;
+	height: 350px;
+	border: 18px solid #483a94;
+}
+
+main {
+	max-width: 800px;
+	margin:  0 auto; /*centers the item*/	
+	padding:  0 20px 20px 100px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color:  #e70c19;
+	margin:  40px 0 10px;
+}
+
+a{/*attributes (link urls)*/
+	color: #e70c19; 
+}
+/*adding a suedo class*/
+a:hover{
+	color: ghostwhite;
+	background-color:  #483a94;
+}
+
+footer {
+	background-color: #d14635;
+	text-align: center;
+	color: white;
+}
+footer p{
+	margin:  0;
+
+}
+footer a{
+	color:  white;
+}
+footer a:hover{
+	opacity:  .5;
+	background-color:  transparent;
+}
+
+p.caption{
+	color:  silver;
+	font-style: italic;
+	margin-top: 0;
+}
